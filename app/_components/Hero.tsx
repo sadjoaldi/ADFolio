@@ -43,12 +43,22 @@ const Hero = () => {
           <Code>MySql</Code>.
         </p>
       </div>
-      <div className="flex-[2] max-md:m-auto ml-auto">
-        <img
-          src="https://avatars.githubusercontent.com/u/118755025?v=4"
-          alt="photo profile Alhassane Diallo"
-          className="w-full h-auto rounded-full max-w-xs max-md:w-56  hover:shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-        />
+      <div className="w-72 h-fit group">
+        <div className="flex-[2] max-md:m-auto ml-auto relative ">
+          <img
+            src="https://avatars.githubusercontent.com/u/118755025?v=4"
+            alt="photo profile Alhassane Diallo"
+            className="w-full h-auto   rounded-full max-w-xs max-md:w-28 cursor-pointer rotate-12 "
+          />
+          <div className="absolute h-full rounded-full w-full bg-black/20 flex justify-center items-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 cursor-pointer">
+            <div className="text text-sm py-4 px-8 w-full ">
+              <h2>Alhassane Diallo</h2>
+              <p>Web developer Frontend</p>
+              <p>06 95 30 38 41</p>
+              <p>alsannealdi@hotmail.com</p>
+            </div>
+          </div>
+        </div>
       </div>
     </Section>
   );

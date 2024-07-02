@@ -2,6 +2,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Section from "./Section";
+import DevIcon from "./icons/Dev";
 import GithubIcon from "./icons/GithubIcon";
 import LinkedIn from "./icons/LinkedIn";
 
@@ -14,21 +15,24 @@ const Header = () => {
         <ul className="flex items-center gap-2">
           <Link
             href="https://github.com/sadjoaldi"
+            target="_blank"
             className={cn(buttonVariants({ variant: "outline" }))}
           >
             <GithubIcon className="text-foreground" size={12} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/alhassanedialloo/"
+            target="_blank"
             className={cn(buttonVariants({ variant: "outline" }))}
           >
             <LinkedIn className="text-foreground" size={12} />
           </Link>
           <Link
-            href="https://github.com/sadjoaldi"
+            href="https://dev.to/sadjoaldi"
+            target="_blank"
             className={cn(buttonVariants({ variant: "outline" }))}
           >
-            <GithubIcon className="text-foreground" size={12} />
+            <DevIcon className="text-foreground" size={12} />
           </Link>
         </ul>
       </Section>
