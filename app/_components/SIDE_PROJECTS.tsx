@@ -33,7 +33,7 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     madeWith: "HTML, CSS, JavaScript",
     description:
       "This is a project that I built using HTML, CSS, and JavaScript. It allows you to calculate the tip and the total amount of a bill.",
-    url: "/",
+    url: "https://github.com/sadjoaldi/tipCalc",
   },
   {
     Logo: Film,
@@ -49,7 +49,7 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     madeWith: "Next.js, Tailwind CSS",
     description:
       "This is my personal portfolio that I built using Next.js and Tailwind CSS. ",
-    url: "/",
+    url: "https://web-alhassane-diallo.vercel.app/",
   },
   {
     Logo: Map,
@@ -57,6 +57,6 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     madeWith: "ReactJS and SCSS",
     description:
       "This is a project that I built using ReactJS and SCSS. It allows you to search for a country and get information about it.",
-    url: "/",
+    url: "https://github.com/sadjoaldi/CountFind",
   },
 ];
