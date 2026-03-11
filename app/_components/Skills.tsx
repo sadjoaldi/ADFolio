@@ -192,6 +192,24 @@ export const Skills = () => {
 
           <div className="flex flex-wrap gap-5 border border-solid border-bg-accent/30 rounded-xl p-4">
             <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2rem"
+              height="2rem"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="lucide lucide-container-icon lucide-container"
+            >
+              <path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z" />
+              <path d="M10 21.9V14L2.1 9.1" />
+              <path d="m10 14 11.9-6.9" />
+              <path d="M14 19.8v-8.1" />
+              <path d="M18 17.5V9.4" />
+            </svg>
+            <svg
               viewBox="0 0 32 32"
               fill="currentColor"
               height="2rem"

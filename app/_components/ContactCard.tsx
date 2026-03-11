@@ -5,7 +5,6 @@ import Link from "next/link";
 //composant
 export const ContactCard = (props: {
   image: string;
-  // mediumImage: string;
   name: string;
   description: string;
   url: string;

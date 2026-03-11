@@ -1,47 +1,32 @@
-import { Film, Map, Orbit, Rss, Waypoints } from "lucide-react";
+import { Library, Rss, Trophy, Webhook } from "lucide-react";
 import { SideProjectsProps } from "./SideProjects";
 
 //logo, nom et description des différents projets
 export const SIDE_PROJECTS: SideProjectsProps[] = [
-  // {
-  //   Logo: Origami,
-  //   title: "Portfolio",
-  //   madeWith: "Next.js, Tailwind CSS",
-  //   description:
-  //     "This is my personal portfolio that I built using Next.js and Tailwind CSS.",
-  //   url: "/",
-  // },
-  // {
-  //   Logo: Shell,
-  //   title: "Portfolio",
-  //   madeWith: "Next.js, Tailwind CSS",
-  //   description:
-  //     "This is my personal portfolio that I built using Next.js and Tailwind CSS.",
-  //   url: "/",
-  // },
   {
-    Logo: Waypoints,
-    title: "BabyPlace",
-    madeWith: "ReactJS, NodeJS, Express, MySQL",
+    Logo: Trophy,
+    title: "Sport dashboard",
+    madeWith: "ReactJS, css, typescript, API",
     description:
-      "Group project to create a daycare reservation application for parents and early childhood professionals",
-    url: "https://github.com/WildCodeSchool-2023-09/JS-RemoteFR-jurascripts-P3-Babyplace",
+      "Football explorer is a project that I built using ReactJS, css, typescript, and API. It allows you to explore football data and statistics.",
+    url: "https://github.com/sadjoaldi/sportdashboard",
   },
   {
-    Logo: Orbit,
-    title: "Tip calculator ",
-    madeWith: "HTML, CSS, JavaScript",
+    Logo: Library,
+    title: "Booktome",
+    madeWith: "Reactjs, Typescript, Nodejs, Expressjs, TRPC",
     description:
       "This is a project that I built using HTML, CSS, and JavaScript. It allows you to calculate the tip and the total amount of a bill.",
-    url: "https://github.com/sadjoaldi/tipCalc",
+    url: "https://github.com/sadjoaldi/booktome",
   },
   {
-    Logo: Film,
-    title: "Movies App",
-    madeWith: "Next.js, Tailwind CSS",
+    Logo: Webhook,
+    title: "Mingo social media",
+    madeWith:
+      "Reactjs, tailwind, nodejs, expressjs, sql, mysql, docker, ci/cd, github actions",
     description:
-      "Movies App is a project that I built using Next.js and Tailwind CSS. It allows you to search for movies and get information about them, and also watch trailers.",
-    url: "/",
+      "Mingo is a social media platform that allows users to connect with friends, share content, and engage in discussions. It is built using ReactJS for the frontend, Tailwind CSS for styling, NodeJS and ExpressJS for the backend, SQL and MySQL for database management, Docker for containerization, and CI/CD with GitHub Actions for continuous integration and deployment.",
+    url: "https://github.com/sadjoaldi/2024-12-orleans-cda-project3-team-c",
   },
   {
     Logo: Rss,
@@ -50,13 +35,5 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     description:
       "This is my personal portfolio that I built using Next.js and Tailwind CSS. ",
     url: "https://web-alhassane-diallo.vercel.app/",
-  },
-  {
-    Logo: Map,
-    title: "Country",
-    madeWith: "ReactJS and SCSS",
-    description:
-      "This is a project that I built using ReactJS and SCSS. It allows you to search for a country and get information about it.",
-    url: "https://github.com/sadjoaldi/CountFind",
   },
 ];
